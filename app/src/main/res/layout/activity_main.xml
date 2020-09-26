@@ -7,6 +7,28 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/iu_pic"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF0000"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이유"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
 
 </LinearLayout>
