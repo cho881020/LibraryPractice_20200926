@@ -24,7 +24,7 @@ class MainActivity : BaseActivity() {
 
         loadWebImageButton.setOnClickListener {
 
-            Glide.with(mContext).load("https://lh3.googleusercontent.com/proxy/LTmNdp347w0ZC0EqVyQjmIkuBD3ZDzfpV7qD0I2T53yfjm9gCF2iNkKfnn8gpTohMaO21CLVvQddvEy1deJ97HIvza_B7n01Ps9h7vLF29X1ZLszrlS8hTGW2fXnJTGx1YzXNMalvEiE458").into(otherPersonImg)
+            Glide.with(mContext).load("http://lh3.googleusercontent.com/proxy/LTmNdp347w0ZC0EqVyQjmIkuBD3ZDzfpV7qD0I2T53yfjm9gCF2iNkKfnn8gpTohMaO21CLVvQddvEy1deJ97HIvza_B7n01Ps9h7vLF29X1ZLszrlS8hTGW2fXnJTGx1YzXNMalvEiE458").into(otherPersonImg)
 
         }
 
